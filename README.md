@@ -1,12 +1,12 @@
-## TensorFlow implementation of "Iterative Pruning"
+## TensorFlow implementation of "Iterative Pruning" and revised from revised from: [impl-pruning-TF](https://github.com/garion9013/impl-pruning-TF).
 
-The code is revised from: [impl-pruning-TF](https://github.com/garion9013/impl-pruning-TF).
 ---
-
 This work is based on "Learning both Weights and Connections for Efficient
 Neural Network." [Song et al.](http://arxiv.org/pdf/1506.02626v3.pdf) @ NIPS '15.
+
 Besides, I also designed a matrix-based pruning, which has less storage overhead and higher computation efficiency. 
-For more detail, you can look into Final Project Report.
+For more details, please refer to the attached Final Project Report.
+
 I applied Iterative Pruning on a small MNIST CNN model (13MB, originally), which can be
 accessed from [TensorFlow Tutorials](https://www.tensorflow.org/versions/r0.8/tutorials/mnist/pros/index.html).
 
