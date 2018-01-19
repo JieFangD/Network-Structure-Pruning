@@ -1,6 +1,5 @@
 ## TensorFlow implementation of "Iterative Pruning" and revised from revised from: [impl-pruning-TF](https://github.com/garion9013/impl-pruning-TF).
 
----
 This work is based on "Learning both Weights and Connections for Efficient
 Neural Network." [Song et al.](http://arxiv.org/pdf/1506.02626v3.pdf) @ NIPS '15.
 
